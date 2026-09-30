@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    background-color: #dec0ff;
+    font-family: "Nunito", sans-serif;
+}
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -15,7 +22,7 @@
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
-    text-decoration: underline wavy #ff4757 1px;
+    text-decoration: underline wavy #c28cff 1px;
     display: block;
 }
 
@@ -30,6 +37,16 @@
 
 a.button {
     background-color: rgb(96, 96, 255);
-    border: 2px rgb(96, 96, 255);
+    border: 10px rgb(96, 96, 255) solid;
     border-radius: 12px;
+    color: black;
+    text-decoration: none;
+}
+
+.head {
+    background-color: #c28cff;
+}
+
+.title {
+    font-weight: 1000;
 }
